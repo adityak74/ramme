@@ -42,7 +42,9 @@ ipcRenderer.on('navigate-notifications', () => {
 })
 
 ipcRenderer.on('navigate-profile', () => {
+  console.log('click on navigate profile');
   const profile = $('._tdn3u').childNodes[4].childNodes[0]
+  console.log('profile---->', profile);
   if (profile) {
     profile.click()
   }

@@ -74,8 +74,7 @@ function intervalFunc () {
                   '                   window.history.back();                   ' +
                   "                                                       }'); " +
                   'para.appendChild(node);                                     ' +
-                  'document.head.appendChild(para);}                           '
-
+                  'document.head.appendChild(para);}                           ';
     win.webContents.executeJavaScript(jscode)
   }
 }
